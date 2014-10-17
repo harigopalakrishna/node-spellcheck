@@ -1,7 +1,7 @@
 {
-  "name": "node-js-sample",
+  "name": "node-spellcheck",
   "version": "0.1.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Spellcheck REST service",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -15,16 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/harigopalakrishna/node-spellcheck"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
+  "author": "Hari Gopalakrishna",
   "license": "MIT"
 }

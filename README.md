@@ -1,6 +1,6 @@
-# node-js-sample
+# node-spellcheck
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Spellcheck REST service implemented in Node.js app using [npm spellcheck module](https://www.npmjs.org/package/spellcheck).
 
 ## Running Locally
 
