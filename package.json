@@ -21,7 +21,5 @@
     "node",
     "heroku",
     "express"
-  ],
-  "author": "Hari Gopalakrishna",
-  "license": "MIT"
+  
 }
