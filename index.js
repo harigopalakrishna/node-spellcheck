@@ -22,7 +22,7 @@ spell.check(request.params.id, function(err, correct, suggestions) {
 	  );
     else
       response.send(
-		    '{"word":"'+request.params.id+'","isMisspelled":true}'
+	  '{"word":"'+request.params.id+'","isMisspelled":true}'
 	  );
 });
 
