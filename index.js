@@ -18,11 +18,11 @@ spell.check(request.params.id, function(err, correct, suggestions) {
     if (err) throw err;
     if (correct)
       response.send(
-		  '{"isMisspelled":false}'
+		  '{"word":"'+request.params.id+'","isMisspelled":false}'
 	  );
     else
       response.send(
-		   '{"isMisspelled":true}'
+		    '{"word":"'+request.params.id+'","isMisspelled":true}'
 	  );
 });
 
